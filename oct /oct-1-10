@@ -1,0 +1,40 @@
+# count
+s = "success"
+count = 0
+for char in s:
+    if char == "s":
+        count += 1
+print("No of s present is =", count)
+
+# count vowels
+s = "computer"
+vowels = "aeiou"
+count = 0
+for char in s:
+    if char in vowels:
+        count += 1
+        print(char)
+print("No of vowels =", count)
+
+#upper case
+s = "India is my country"
+words = s.split()
+for word in words:
+    print(word.upper())
+
+#reverse& find vowels
+s = "beautiful"
+vowel_count = 0
+reversed_str = s[::-1]
+for char in s:
+    if char in "aeiou":
+        vowel_count += 1
+print("Reversed string:", reversed_str)
+print("No of vowels =", vowel_count)
+
+#num of character in given line longest word
+
+
+
+
+
